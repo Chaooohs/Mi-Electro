@@ -27,18 +27,29 @@
 @media (max-width: 480px) {
   .page {
     padding: 0 20px;
+    background: url("../img/buick/buick-mobile.png") top right/auto auto no-repeat, url("../img/back/back-top-mobile.png") top right/100% no-repeat;
   }
   .header {
+    grid-template-rows: auto 1fr 1fr;
     padding-top: 25px;
+    padding-bottom: 50px;
   }
   .header__logo {
     width: 50px;
+  }
+  .header__content {
+    grid-row: 3/4;
   }
   .header__title {
     font-size: 30px;
   }
   .header__subtitle {
+    width: 100%;
     font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .header__form {
+    margin: 0 auto;
   }
   .character__title {
     font-size: 25px;
