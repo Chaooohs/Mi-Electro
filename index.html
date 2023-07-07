@@ -13,61 +13,109 @@
 <body>
   <div class="page">
     <header> <!--- header -->
-      <div class="header">
-        <a class="header__logo" href="">
-          <img src="./img/logo/logo.svg" alt="logo">
-        </a>
-        <nav>
-          <div class="header__nav">
-            <a href="" class="header__link">О продукте</a>
-            <a href="" class="header__link">Внешний вид</a>
-            <a href="" class="header__link">Безопасность</a>
-            <a href="" class="header__link">Отзывы</a>
-            <a href="" class="header__link">FAQ</a>
-          </div>
-          <div class="burger">
-            <div class="burger__line burger__one"></div>
-            <div class="burger__line burger__two"></div>
-            <div class="burger__line burger__three"></div>
-            <div class="burger__line burger__four"></div>
-          </div>
-          <div class="header__mobile">
-            <a href="" class="header__link">О продукте</a>
-            <a href="" class="header__link">Внешний вид</a>
-            <a href="" class="header__link">Безопасность</a>
-            <a href="" class="header__link">Отзывы</a>
-            <a href="" class="header__link">FAQ</a>
-          </div>
-        </nav>
-        <a href="#!" class="header__btn">Купить</a>
-        <div class="header__content">
-          <h1 class="header__title">Стильный электросамокат <br> с мощным аккумулятором</h1>
-          <p class="header__subtitle">
-            Улучшенная производительность <br>
-            для дальних путешествий. <br>
-            Работает так же просто, <br>
-            как и выглядит.
-          </p>
-          <form>
-            <div class="header__form">
-              <input class="header__input" type="radio" id="radioWhite" name="buick">
-              <label class="header__label" for="radioWhite">Белый</label>
-              <input class="header__input" type="radio" id="radioBlack" name="buick" checked>
-              <label class="header__label" for="radioBlack">Черный</label>
+      <div class="wrap">
+        <div class="header">
+          <a class="header__logo" href="">
+            <img src="./img/logo/logo-red.svg" alt="logo">
+          </a>
+          <nav>
+            <div class="header__nav">
+              <a href="" class="header__link">О продукте</a>
+              <a href="" class="header__link">Внешний вид</a>
+              <a href="" class="header__link">Безопасность</a>
+              <a href="" class="header__link">Отзывы</a>
+              <a href="" class="header__link">FAQ</a>
             </div>
-          </form>
+            <div class="header__mobile">
+              <a href="" class="header__link">О продукте</a>
+              <a href="" class="header__link">Внешний вид</a>
+              <a href="" class="header__link">Безопасность</a>
+              <a href="" class="header__link">Отзывы</a>
+              <a href="" class="header__link">FAQ</a>
+            </div>
+          </nav>
+          <div class="burger">
+            <div class="burger__icon">
+              <div class="burger__line burger__one"></div>
+              <div class="burger__line burger__two"></div>
+              <div class="burger__line burger__three"></div>
+              <div class="burger__line burger__four"></div>
+            </div>
+          </div>
+          <a href="#!" class="header__btn">Купить</a>
+          <div class="header__content">
+            <h1 class="header__title">Стильный электросамокат <br> с мощным аккумулятором</h1>
+            <p class="header__subtitle">
+              Улучшенная производительность <br>
+              для дальних путешествий. <br>
+              Работает так же просто, <br>
+              как и выглядит.
+            </p>
+            <form>
+              <div class="header__form">
+                <input class="header__input" type="radio" id="radioWhite" name="buick">
+                <label class="header__label" for="radioWhite">Белый</label>
+                <input class="header__input" type="radio" id="radioBlack" name="buick" checked>
+                <label class="header__label" for="radioBlack">Черный</label>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </header>
-    <section>
-      <div class="character">
-        <h2 class="character__title">Мощная батарея и экономичный расход
-          заряда позволяют преодолевать
-          расстояния до 45 км
-        </h2>
+    <section> <!--- character -->
+      <div class="wrap">
+        <div class="character">
+          <h2 class="character__chapter">Мощная батарея и экономичный расход
+            заряда позволяют преодолевать
+            расстояния до 45 км
+          </h2>
+        </div>
+        <div class="character__content">
+          <div class="character__item">
+            <h3 class="character__title">Три режима скорости</h3>
+            <hr>
+            <p class="character__subtitle">
+              Три режима езды позволяют почуствовать себя комфортно в любой ситуации. Режим «S» увеличитвает скорость,
+              если опаздываете на работу. Во время прогулки по парку активируйте режим «D». Включите режим «Пешеход»,
+              когда двигаетесь по оживлённой улице.
+            </p>
+            <img class="character__photo-lap" src="./img/character/image1-laptop.png" alt="img">
+          </div>
+          <div class="character__item">
+            <h3 class="character__title">Система восстановления энергии</h3>
+            <hr>
+            <p class="character__subtitle">
+              Во время торможения и движения по инерции система преобразовывает кинетическую энергию в электрическую,
+              позволяя увеличить общий запас хода самоката.
+            </p>
+            <img class="character__photo-lap" src="./img/character/image3-laptop.png" alt="iimg">
+          </div>
+          <div class="character__item">
+            <h3 class="character__title">Мощная батарея</h3>
+            <hr>
+            <p class="character__subtitle">
+              Самокат оснащен аккумулятором емкостью 12 800 мАч. Это позволяет преодолевать расстояния до 45 км без
+              подзарядки.
+            </p>
+            <img class="character__photo-lap" src="./img/character/image4-laptop.png" alt="img">
+          </div>
+        </div>
+        <div class="character__photo">
+          <img src="./img/character/image1.png" alt="img">
+          <img src="./img/character/image2.png" alt="img">
+        </div>
       </div>
-      <div class="character__content">
-
+    </section>
+    <section> <!--- speed -->
+      <div class="speed">
+        <div class="wrap">
+          <img class="speed__logo" src="./img/logo/logo-white.svg" alt="logo">
+          <h2 class="speed__title">Высокая скорость <br> передвижения</h2>
+          <p class="speed__subtitle">
+            Двигатель мощностью до 600 Вт позволяет <br> развивать скорость до 25 км/ч.
+          </p>
+        </div>
       </div>
     </section>
   </div>

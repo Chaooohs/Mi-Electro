@@ -1,3 +1,4 @@
+/* #region fonts */
 @font-face {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy-Bold.eot");
@@ -22,6 +23,8 @@
   font-weight: bold;
   font-style: normal;
 }
+/* #endregion */
+/* #region common */
 body {
   margin: 0;
   font-family: "Gilroy", sans-serif;
@@ -36,21 +39,35 @@ a {
   text-decoration: none;
 }
 
-.page {
-  max-width: 1440px;
-  padding: 0 140px;
-  box-sizing: border-box;
-  background-color: #E0E0E0;
-  background: url("../img/buick/Subtract.png") top right/47.5% no-repeat, url("../img/buick/buick.png") top right/75% no-repeat, url("../img/back/back-header-top.svg") 0 0/100% no-repeat, url("../img/back/back-2.png") 0 50rem/100% no-repeat;
+hr {
+  width: 100%;
+  height: 3px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #151515;
 }
 
+.page {
+  max-width: 1440px;
+  box-sizing: border-box;
+  background-color: #E0E0E0;
+  background: url("../img/buick/buick-desktop.png") top right/50% no-repeat, url("../img/back/back-header-top.svg") 0 0/100% no-repeat, url("../img/back/back-2.png") 0 50rem/100% no-repeat;
+}
+
+.wrap {
+  padding: 0 140px;
+}
+
+/* #endregion */
 /* #region header */
 .header {
   display: grid;
   grid-template-columns: 1fr 10fr 1fr;
   align-items: center;
   padding-top: 40px;
-  padding-bottom: 300px;
+  padding-bottom: 20.8%;
+  /* 300/1440 */
 }
 .header__logo {
   width: 60px;
@@ -91,7 +108,6 @@ a {
   color: #FF4C0D;
 }
 .header__subtitle {
-  width: 50%;
   font-size: 30px;
   font-weight: 600;
   line-height: 120%;
@@ -127,12 +143,80 @@ a {
   cursor: pointer;
 }
 
+.burger {
+  display: none;
+}
+
 /* #endregion */
 /* #region character */
-.character__title {
+.character__chapter {
   font-size: 45px;
   font-weight: 600;
   line-height: 110%;
   color: #151515;
 }
+.character__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.character__item {
+  display: grid;
+  grid-template-rows: 1fr auto 3fr;
+}
+.character__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #151515;
+}
+.character__subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+  color: #151515;
+  padding-right: 40px;
+}
+.character__photo {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.character__photo-lap {
+  display: none;
+}
+.character__photo img:nth-child(1) {
+  grid-column: 1/9;
+}
+.character__photo img:nth-child(2) {
+  grid-column: 10/13;
+}
+
+/* #endregion */
+/* #region speed */
+.speed {
+  height: 41cqw;
+  background: url("../img/back/back-speed.png") 0 0/100% no-repeat;
+  box-sizing: border-box;
+  margin-top: 100px;
+  padding-top: 9.7%;
+  /* 140/1440 */
+}
+.speed__logo {
+  width: 60px;
+}
+.speed__title {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 110%;
+  color: #F1F1F1;
+  margin-top: 10.4%;
+  /* 150/1440 */
+}
+.speed__subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+  color: #F1F1F1;
+}
+
 /* #endregion */

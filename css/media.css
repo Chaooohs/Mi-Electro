@@ -1,12 +1,19 @@
 @media (max-width: 992px) {
+  hr {
+    background-color: #FF4C0D;
+    width: 28%;
+  }
   .page {
+    background: url("../img/buick/buick-laptop.png") top right/auto auto no-repeat, url("../img/back/back-top-mobile.png") top right/100% no-repeat;
+  }
+  .wrap {
     padding: 0 40px;
   }
   .header {
-    padding-bottom: 150px;
+    padding-bottom: 220px;
   }
   .header__logo {
-    width: 60px;
+    width: 50px;
   }
   .header__nav {
     display: none;
@@ -20,14 +27,84 @@
   .header__subtitle {
     font-size: 20px;
   }
-  .character__title {
+  .burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 65px;
+    background-color: #F1F1F1;
+    cursor: pointer;
+  }
+  .burger__icon {
+    position: relative;
+    width: 18px;
+    height: 12px;
+  }
+  .burger__line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+  }
+  .burger__one {
+    top: 0;
+  }
+  .burger__two {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .burger__three {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .burger__four {
+    bottom: 0;
+  }
+  .character__chapter {
     font-size: 30px;
   }
+  .character__content {
+    grid-template-columns: 1fr;
+  }
+  .character__item {
+    grid-template-rows: auto auto auto;
+  }
+  .character__title {
+    color: #FF4C0D;
+  }
+  .character__subtitle {
+    width: 62%;
+    margin-bottom: 40px;
+  }
+  .character__photo {
+    display: none;
+  }
+  .character__photo-lap {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .speed {
+    padding: 40px 0;
+    height: 65cqw;
+    background: url("../img/back/back-speed-lap.png") 0 0/100% no-repeat;
+  }
+  .speed__title {
+    font-size: 30px;
+    margin-top: 30%;
+  }
+  .speed__subtitle {
+    font-size: 14px;
+  }
 }
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   .page {
-    padding: 0 20px;
     background: url("../img/buick/buick-mobile.png") top right/auto auto no-repeat, url("../img/back/back-top-mobile.png") top right/100% no-repeat;
+  }
+  .wrap {
+    padding: 0 20px;
   }
   .header {
     grid-template-rows: auto 1fr 1fr;
@@ -51,7 +128,32 @@
   .header__form {
     margin: 0 auto;
   }
-  .character__title {
+  .character__chapter {
     font-size: 25px;
+  }
+  .character__title {
+    font-size: 16px;
+  }
+  .character__subtitle {
+    font-size: 12px;
+    width: 100%;
+  }
+  .character__photo-lap {
+    width: 100%;
+  }
+  .speed {
+    padding: 20px 0 30px;
+    height: 130cqw;
+    background: url("../img/back/back-speed-mob.png") 0 0/100% no-repeat;
+  }
+  .speed__logo {
+    width: 46px;
+  }
+  .speed__title {
+    font-size: 25px;
+    margin-top: 80%;
+  }
+  .speed__subtitle {
+    font-size: 12px;
   }
 }
