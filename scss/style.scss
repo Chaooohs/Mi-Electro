@@ -76,6 +76,27 @@ hr {
   padding: 0 140px;
 }
 
+.chapter {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 110%;
+  color: $black;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: $black;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+  color: $black;
+}
+
 /* #endregion */
 
 /* #region header */
@@ -187,13 +208,6 @@ hr {
 
 .character {
 
-  &__chapter {
-    font-size: 45px;
-    font-weight: 600;
-    line-height: 110%;
-    color: $black;
-  }
-
   &__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -204,18 +218,8 @@ hr {
     grid-template-rows: 1fr auto 3fr;
   }
 
-  &__title {
-    font-size: 20px;
-    font-weight: 600;
-    color: $black;
-  }
-
   &__subtitle {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 150%;
-    letter-spacing: -0.14px;
-    color: $black;
+    box-sizing: border-box;
     padding-right: 40px;
 
   }
@@ -255,21 +259,62 @@ hr {
   }
 
   &__title {
-    font-size: 45px;
-    font-weight: 500;
-    line-height: 110%;
     color: $white;
     margin-top: 10.4%;
     /* 150/1440 */
   }
 
   &__subtitle {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 150%;
     letter-spacing: -0.14px;
     color: $white;
   }
 }
 
 /* #endregion */
+
+/* #region desing */
+
+.desing {
+  margin-top: 80px;
+
+  &__chapter {
+    width: 87%;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+  }
+
+  &__card {
+    border-radius: 15px;
+    background-color: #0E0E0E;
+
+    &_text {
+      padding: 71% 40px 30px;
+    }
+  }
+
+  &__card_one {
+    background: url('../img/cards/image1-desk.png') 0 0 / 100% no-repeat;
+    background-color: #0E0E0E;
+  }
+
+  &__card_two {
+    background: url('../img/cards/image2-desk.png') 0 0 / 100% no-repeat;
+    background-color: #0E0E0E;
+  }
+
+
+  &__title {
+    color: $white;
+  }
+
+  &__subtitle {
+    color: $white;
+  }
+}
+
+/* #endregion */
+

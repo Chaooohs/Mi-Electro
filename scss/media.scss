@@ -19,6 +19,11 @@ $red: #FF4C0D;
 
   .wrap {
     padding: 0 40px;
+    box-sizing: border-box;
+  }
+
+  .chapter {
+    font-size: 30px;
   }
 
   //- header -------------------------
@@ -95,9 +100,6 @@ $red: #FF4C0D;
   //- character -------------------------
 
   .character {
-    &__chapter {
-      font-size: 30px;
-    }
 
     &__content {
       grid-template-columns: 1fr;
@@ -109,6 +111,7 @@ $red: #FF4C0D;
 
     &__title {
       color: $red;
+      margin-top: 50px;
     }
 
     &__subtitle {
@@ -143,6 +146,21 @@ $red: #FF4C0D;
       font-size: 14px;
     }
   }
+
+  //- desing ---------------------------------
+
+  .desing {
+
+    &__cards {
+      flex-direction: column;
+      row-gap: 10px;
+    }
+
+    &__card {
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
 }
 
 @media (max-width: 640px) {
@@ -154,6 +172,18 @@ $red: #FF4C0D;
 
   .wrap {
     padding: 0 20px;
+  }
+
+  .chapter {
+    font-size: 25px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .subtitle {
+    font-size: 12px;
   }
 
   //- header -------------------------------------
@@ -189,16 +219,8 @@ $red: #FF4C0D;
   //- character ----------------------
 
   .character {
-    &__chapter {
-      font-size: 25px;
-    }
-
-    &__title {
-      font-size: 16px;
-    }
 
     &__subtitle {
-      font-size: 12px;
       width: 100%;
     }
 
@@ -225,6 +247,34 @@ $red: #FF4C0D;
 
     &__subtitle {
       font-size: 12px;
+    }
+  }
+
+  //- desing ---------------------------
+
+  .desing {
+    margin-top: 70px;
+
+    &__chapter {
+      width: 100%;
+    }
+
+    &__card {
+      width: 100%;
+    }
+
+    &__card_one {
+      background: url('../img/cards/image1-mob.png') 0 0 / 100% no-repeat;
+      background-color: #0E0E0E;
+    }
+
+    &__card_two {
+      background: url('../img/cards/image2-mob.png') 0 0 / 100% no-repeat;
+      background-color: #0E0E0E;
+    }
+
+    &__card_text {
+      padding: 71% 20px 20px;
     }
   }
 }

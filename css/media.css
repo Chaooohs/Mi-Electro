@@ -8,6 +8,10 @@
   }
   .wrap {
     padding: 0 40px;
+    box-sizing: border-box;
+  }
+  .chapter {
+    font-size: 30px;
   }
   .header {
     padding-bottom: 220px;
@@ -62,9 +66,6 @@
   .burger__four {
     bottom: 0;
   }
-  .character__chapter {
-    font-size: 30px;
-  }
   .character__content {
     grid-template-columns: 1fr;
   }
@@ -73,6 +74,7 @@
   }
   .character__title {
     color: #FF4C0D;
+    margin-top: 50px;
   }
   .character__subtitle {
     width: 62%;
@@ -98,6 +100,14 @@
   .speed__subtitle {
     font-size: 14px;
   }
+  .desing__cards {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .desing__card {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 640px) {
   .page {
@@ -105,6 +115,15 @@
   }
   .wrap {
     padding: 0 20px;
+  }
+  .chapter {
+    font-size: 25px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .subtitle {
+    font-size: 12px;
   }
   .header {
     grid-template-rows: auto 1fr 1fr;
@@ -128,14 +147,7 @@
   .header__form {
     margin: 0 auto;
   }
-  .character__chapter {
-    font-size: 25px;
-  }
-  .character__title {
-    font-size: 16px;
-  }
   .character__subtitle {
-    font-size: 12px;
     width: 100%;
   }
   .character__photo-lap {
@@ -155,5 +167,25 @@
   }
   .speed__subtitle {
     font-size: 12px;
+  }
+  .desing {
+    margin-top: 70px;
+  }
+  .desing__chapter {
+    width: 100%;
+  }
+  .desing__card {
+    width: 100%;
+  }
+  .desing__card_one {
+    background: url("../img/cards/image1-mob.png") 0 0/100% no-repeat;
+    background-color: #0E0E0E;
+  }
+  .desing__card_two {
+    background: url("../img/cards/image2-mob.png") 0 0/100% no-repeat;
+    background-color: #0E0E0E;
+  }
+  .desing__card_text {
+    padding: 71% 20px 20px;
   }
 }
