@@ -26,6 +26,24 @@ $red: #FF4C0D;
     font-size: 30px;
   }
 
+  .title {
+    color: $red;
+  }
+
+  .item {
+    grid-template-rows: auto auto auto;
+  }
+
+  .photo {
+    display: none;
+  }
+
+  .photo-lap {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+
   //- header -------------------------
 
   .header {
@@ -74,7 +92,7 @@ $red: #FF4C0D;
     &__line {
       position: absolute;
       width: 100%;
-      height: 1px;
+      height: 2px;
       background-color: black;
     }
 
@@ -105,10 +123,6 @@ $red: #FF4C0D;
       grid-template-columns: 1fr;
     }
 
-    &__item {
-      grid-template-rows: auto auto auto;
-    }
-
     &__title {
       color: $red;
       margin-top: 50px;
@@ -117,16 +131,6 @@ $red: #FF4C0D;
     &__subtitle {
       width: 62%;
       margin-bottom: 40px;
-    }
-
-    &__photo {
-      display: none;
-    }
-
-    &__photo-lap {
-      display: block;
-      width: 60%;
-      margin: 0 auto;
     }
   }
 
@@ -157,8 +161,15 @@ $red: #FF4C0D;
     }
 
     &__card {
-      width: 70%;
+      width: 60%;
       margin: 0 auto;
+    }
+  }
+
+  //- secure -------------------------------
+  .secure {
+    &__content {
+      grid-template-columns: 1fr;
     }
   }
 }
@@ -184,6 +195,10 @@ $red: #FF4C0D;
 
   .subtitle {
     font-size: 12px;
+  }
+
+  .photo-lap {
+    width: 100%;
   }
 
   //- header -------------------------------------
@@ -221,10 +236,6 @@ $red: #FF4C0D;
   .character {
 
     &__subtitle {
-      width: 100%;
-    }
-
-    &__photo-lap {
       width: 100%;
     }
   }
