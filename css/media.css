@@ -113,6 +113,9 @@
   .secure__content {
     grid-template-columns: 1fr;
   }
+  .store {
+    margin-top: 5.6%;
+  }
 }
 @media (max-width: 640px) {
   .page {
@@ -192,5 +195,20 @@
   }
   .desing__card_text {
     padding: 71% 20px 20px;
+  }
+  .app {
+    margin-top: 0;
+  }
+  .app__content {
+    grid-template-columns: 1fr;
+  }
+  .app__image {
+    grid-column: 1;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .store {
+    justify-content: center;
+    margin-top: 40px;
   }
 }
