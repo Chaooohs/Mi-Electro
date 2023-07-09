@@ -112,26 +112,25 @@ hr {
   background: url("../img/buick/buick-white-desktop.png") top right/50% no-repeat;
 }
 
-.buick__form {
+.buick {
+  position: relative;
   display: flex;
   width: 248px;
   height: 54px;
   border-radius: 50px;
   border: 3px solid #151515;
 }
-
 .buick__input {
   display: none;
 }
-
 .buick__input:checked + label {
   width: 130px;
   height: 54px;
   border-radius: 65px;
   background-color: #151515;
   color: #F1F1F1;
+  transition: all 0.2s linear;
 }
-
 .buick__label {
   font-size: 16px;
   font-weight: 700;
@@ -143,6 +142,24 @@ hr {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+.buick__status {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  background: url("../img/buick/status.svg") right/auto auto no-repeat;
+  transition: background-position 2s ease-in;
+}
+.buick__status_white:checked ~ .buick__status {
+  background-position: left 2px center;
+}
+.buick__status_black:checked ~ .buick__status {
+  background-position: right 2px center;
 }
 
 /* #endregion */

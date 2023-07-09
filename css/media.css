@@ -27,7 +27,7 @@
     width: 60%;
     margin: 0 auto;
   }
-  .bucick_black {
+  .buick_black {
     background: url("../img/buick/buick-black-laptop.png") top right/auto auto no-repeat;
   }
   .buick_white {
@@ -148,7 +148,7 @@
   .buick_white {
     background: url("../img/buick/buick-white-mobile.png") top right/auto auto no-repeat;
   }
-  .buick__form {
+  .buick {
     margin: 0 auto;
   }
   .header {

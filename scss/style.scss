@@ -132,38 +132,61 @@ hr {
   background: url('../img/buick/buick-white-desktop.png') top right / 50% no-repeat;
 }
 
-.buick__form {
+.buick {
+  position: relative;
   display: flex;
   width: 248px;
   height: 54px;
   border-radius: 50px;
   border: 3px solid $black;
-}
 
-.buick__input {
-  display: none;
-}
+  &__input {
+    display: none;
+  }
 
-.buick__input:checked+label {
-  width: 130px;
-  height: 54px;
-  border-radius: 65px;
-  background-color: $black;
-  color: $white;
-}
+  &__input:checked+label {
+    width: 130px;
+    height: 54px;
+    border-radius: 65px;
+    background-color: $black;
+    color: $white;
+    transition: all .2s linear;
+  }
 
-.buick__label {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 150%;
-  color: $black;
+  &__label {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: $black;
 
-  width: 130px;
-  height: 54px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
+    width: 130px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__status {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255, 0.5);
+    background: url('../img/buick/status.svg') right / auto auto no-repeat;
+    transition: background-position 2s ease-in;
+  }
+
+  &__status_white:checked ~ .buick__status {
+    background-position: left 2px center;
+  }
+
+  &__status_black:checked ~ .buick__status {
+    background-position: right 2px center;
+  }
 }
 
 /* #endregion */
