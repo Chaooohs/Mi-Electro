@@ -129,7 +129,7 @@ hr {
   border-radius: 65px;
   background-color: #151515;
   color: #F1F1F1;
-  transition: all 0.2s linear;
+  transition: all 0.1s ease-in;
 }
 .buick__label {
   font-size: 16px;
@@ -153,7 +153,7 @@ hr {
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.5);
   background: url("../img/buick/status.svg") right/auto auto no-repeat;
-  transition: background-position 2s ease-in;
+  transition: background-position 0.1s ease-in;
 }
 .buick__status_white:checked ~ .buick__status {
   background-position: left 2px center;

@@ -150,7 +150,7 @@ hr {
     border-radius: 65px;
     background-color: $black;
     color: $white;
-    transition: all .2s linear;
+    transition: all .1s ease-in;
   }
 
   &__label {
@@ -177,7 +177,7 @@ hr {
     border-radius: 50px;
     background-color: rgb(255, 255, 255, 0.5);
     background: url('../img/buick/status.svg') right / auto auto no-repeat;
-    transition: background-position 2s ease-in;
+    transition: background-position .1s ease-in;
   }
 
   &__status_white:checked ~ .buick__status {
