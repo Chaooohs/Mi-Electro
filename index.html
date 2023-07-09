@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div class="page">
+  <div class="page" id="page">
     <header> <!--- header -->
       <div class="wrap">
         <div class="header">
@@ -43,6 +43,7 @@
             </div>
           </div>
           <a href="#!" class="header__btn">Купить</a>
+
           <div class="header__content">
             <h1 class="header__title">Стильный электросамокат <br> с мощным аккумулятором</h1>
             <p class="header__subtitle">
@@ -54,9 +55,9 @@
             <form>
               <div class="header__form">
                 <input class="header__input" type="radio" id="radioWhite" name="buick">
-                <label class="header__label" for="radioWhite">Белый</label>
+                <label class="header__label" for="radioWhite" id="white">Белый</label>
                 <input class="header__input" type="radio" id="radioBlack" name="buick" checked>
-                <label class="header__label" for="radioBlack">Черный</label>
+                <label class="header__label" for="radioBlack" id="black">Черный</label>
               </div>
             </form>
           </div>
@@ -170,8 +171,8 @@
               <p class="character__subtitle subtitle">
                 При нажатии наручку тормоза системы переднего и заднего колеса активируются последовательно, сокращая
                 тормозной путь и обеспечивая безопасную и плавную остановку.
-               </p>
-               <img class="photo-lap" src="./img/secure/image2-lap.png" alt="img">
+              </p>
+              <img class="photo-lap" src="./img/secure/image2-lap.png" alt="img">
             </div>
             <div class="item">
               <h3 class="title">Яркая задняя фара</h3>
@@ -206,7 +207,8 @@
             <div class="div">
               <h2 class="chapter secure__chapter">Мобильное приложение Mi Home</h2>
               <p class="subtitle">
-                Подключите самокат к мобильному приложению Mi Home и используйте его для блокировки и разблокировки самоката, а так же просмотра основных данных: пробег, скорость, уровень заряда аккумулятора.
+                Подключите самокат к мобильному приложению Mi Home и используйте его для блокировки и разблокировки
+                самоката, а так же просмотра основных данных: пробег, скорость, уровень заряда аккумулятора.
               </p>
               <div class="store">
                 <img src="./img/other/appstore.png" alt="App">
@@ -220,6 +222,8 @@
     </section>
   </div>
 
+
+  <script src="./js/index.js"></script>
 </body>
 
 </html>

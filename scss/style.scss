@@ -65,11 +65,14 @@ hr {
 .page {
   max-width: 1440px;
   box-sizing: border-box;
-  background-color: #E0E0E0;
-  background:
-    url('../img/buick/buick-desktop.png') top right / 50% no-repeat, // buick
-    url('../img/back/back-header-top.svg') 0 0 / 100% no-repeat,
-    url('../img/back/back-2.png') 0 50rem / 100% no-repeat,
+  // background-color: #E0E0E0;
+  // background:
+  //   url('../img/buick/buick-desktop.png') top right / 50% no-repeat, // buick
+  //   url('../img/back/back-header-top.svg') 0 0 / 100% no-repeat,
+  //   url('../img/back/back-2.png') 0 50rem / 100% no-repeat;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50%;
 }
 
 .wrap {
@@ -165,7 +168,6 @@ hr {
     line-height: 150%;
     letter-spacing: -0.14px;
     color: $black;
-
   }
 
   &__content {
@@ -190,7 +192,7 @@ hr {
     display: flex;
     width: 248px;
     height: 54px;
-    border-radius: 108px;
+    border-radius: 50px;
     border: 3px solid $black;
   }
 
