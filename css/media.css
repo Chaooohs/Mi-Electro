@@ -3,6 +3,9 @@
     background-color: #FF4C0D;
     width: 28%;
   }
+  .page {
+    background: url("../img/back/back-top-mobile.png") top right/100% no-repeat;
+  }
   .wrap {
     padding: 0 40px;
     box-sizing: border-box;
@@ -23,6 +26,12 @@
     display: block;
     width: 60%;
     margin: 0 auto;
+  }
+  .bucick_black {
+    background: url("../img/buick/buick-black-laptop.png") top right/auto auto no-repeat;
+  }
+  .buick_white {
+    background: url("../img/buick/buick-white-laptop.png") top right/auto auto no-repeat;
   }
   .header {
     padding-bottom: 220px;
@@ -115,6 +124,9 @@
   }
 }
 @media (max-width: 640px) {
+  .page {
+    background: url("../img/back/back-top-mobile.png") top right/100% no-repeat;
+  }
   .wrap {
     padding: 0 20px;
   }
@@ -129,6 +141,15 @@
   }
   .photo-lap {
     width: 100%;
+  }
+  .buick_black {
+    background: url("../img/buick/buick-black-mobile.png") top right/auto auto no-repeat;
+  }
+  .buick_white {
+    background: url("../img/buick/buick-white-mobile.png") top right/auto auto no-repeat;
+  }
+  .buick__form {
+    margin: 0 auto;
   }
   .header {
     grid-template-rows: auto 1fr 1fr;
@@ -148,9 +169,6 @@
     width: 100%;
     font-size: 16px;
     margin-bottom: 40px;
-  }
-  .header__form {
-    margin: 0 auto;
   }
   .character__subtitle {
     width: 100%;

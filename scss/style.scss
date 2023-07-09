@@ -37,6 +37,7 @@ $black: #151515;
 $white: #F1F1F1;
 $red: #FF4C0D;
 
+
 /* #region common */
 
 body {
@@ -66,13 +67,9 @@ hr {
   max-width: 1440px;
   box-sizing: border-box;
   // background-color: #E0E0E0;
-  // background:
-  //   url('../img/buick/buick-desktop.png') top right / 50% no-repeat, // buick
-  //   url('../img/back/back-header-top.svg') 0 0 / 100% no-repeat,
-  //   url('../img/back/back-2.png') 0 50rem / 100% no-repeat;
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 50%;
+  background:
+    url('../img/back/back-header-top.svg') 0 0 / 100% no-repeat,
+    url('../img/back/back-2.png') 0 50rem / 100% no-repeat;
 }
 
 .wrap {
@@ -121,6 +118,52 @@ hr {
 
 .photo-lap {
   display: none;
+}
+
+/* #endregion */
+
+/* #region buick */
+
+.buick_black {
+  background: url('../img/buick/buick-black-desktop.png') top right / 50% no-repeat;
+}
+
+.buick_white {
+  background: url('../img/buick/buick-white-desktop.png') top right / 50% no-repeat;
+}
+
+.buick__form {
+  display: flex;
+  width: 248px;
+  height: 54px;
+  border-radius: 50px;
+  border: 3px solid $black;
+}
+
+.buick__input {
+  display: none;
+}
+
+.buick__input:checked+label {
+  width: 130px;
+  height: 54px;
+  border-radius: 65px;
+  background-color: $black;
+  color: $white;
+}
+
+.buick__label {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  color: $black;
+
+  width: 130px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 /* #endregion */
@@ -186,40 +229,6 @@ hr {
     font-weight: 600;
     line-height: 120%;
     color: $black;
-  }
-
-  &__form {
-    display: flex;
-    width: 248px;
-    height: 54px;
-    border-radius: 50px;
-    border: 3px solid $black;
-  }
-
-  &__input {
-    display: none;
-  }
-
-  &__input:checked+label {
-    width: 130px;
-    height: 54px;
-    border-radius: 65px;
-    background-color: $black;
-    color: $white;
-  }
-
-  &__label {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 150%;
-    color: $black;
-
-    width: 130px;
-    height: 54px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
   }
 }
 

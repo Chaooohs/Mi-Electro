@@ -11,11 +11,10 @@ $red: #FF4C0D;
     width: 28%;
   }
 
-  // .page {
-  //   background:
-  //     url('../img/buick/buick-laptop.png') top right / auto auto no-repeat,
-  //     url('../img/back/back-top-mobile.png') top right / 100% no-repeat;
-  // }
+  .page {
+    background:
+      url('../img/back/back-top-mobile.png') top right / 100% no-repeat;
+  }
 
   .wrap {
     padding: 0 40px;
@@ -42,6 +41,16 @@ $red: #FF4C0D;
     display: block;
     width: 60%;
     margin: 0 auto;
+  }
+
+  //- buick -------------------------
+
+  .bucick_black {
+    background: url('../img/buick/buick-black-laptop.png') top right / auto auto no-repeat;
+  }
+
+  .buick_white {
+    background: url('../img/buick/buick-white-laptop.png') top right / auto auto no-repeat;
   }
 
   //- header -------------------------
@@ -181,11 +190,11 @@ $red: #FF4C0D;
 }
 
 @media (max-width: 640px) {
-  // .page {
-  //   background:
-  //     url('../img/buick/buick-mobile.png') top right / auto auto no-repeat,
-  //     url('../img/back/back-top-mobile.png') top right / 100% no-repeat;
-  // }
+
+  .page {
+    background:
+      url('../img/back/back-top-mobile.png') top right / 100% no-repeat;
+  }
 
   .wrap {
     padding: 0 20px;
@@ -205,6 +214,20 @@ $red: #FF4C0D;
 
   .photo-lap {
     width: 100%;
+  }
+
+  //- buick ------------------------------------
+
+  .buick_black {
+    background: url('../img/buick/buick-black-mobile.png') top right / auto auto no-repeat;
+  }
+
+  .buick_white {
+    background: url('../img/buick/buick-white-mobile.png') top right / auto auto no-repeat;
+  }
+
+  .buick__form {
+    margin: 0 auto;
   }
 
   //- header -------------------------------------
@@ -230,10 +253,6 @@ $red: #FF4C0D;
       width: 100%;
       font-size: 16px;
       margin-bottom: 40px;
-    }
-
-    &__form {
-      margin: 0 auto;
     }
   }
 
