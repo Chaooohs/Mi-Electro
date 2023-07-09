@@ -3,9 +3,6 @@
     background-color: #FF4C0D;
     width: 28%;
   }
-  .page {
-    background: url("../img/back/back-top-mobile.png") top right/100% no-repeat;
-  }
   .wrap {
     padding: 0 40px;
     box-sizing: border-box;
@@ -124,9 +121,6 @@
   }
 }
 @media (max-width: 640px) {
-  .page {
-    background: url("../img/back/back-top-mobile.png") top right/100% no-repeat;
-  }
   .wrap {
     padding: 0 20px;
   }

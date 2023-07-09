@@ -51,7 +51,8 @@ hr {
 .page {
   max-width: 1440px;
   box-sizing: border-box;
-  background: url("../img/back/back-header-top.svg") 0 0/100% no-repeat, url("../img/back/back-2.png") 0 50rem/100% no-repeat;
+  background-color: #E0E0E0;
+  background: linear-gradient(220deg, #FC501F -10%, #E0E0E0 15%, transparent 32%), radial-gradient(ellipse at 37% 19%, #fc501f -16%, #E0E0E0 28%, transparent 50%), radial-gradient(ellipse at center right, #fc501f -23%, #E0E0E0 28%, transparent 50%), radial-gradient(ellipse at 19% 60%, #fc501f -29%, #E0E0E0 28%, transparent 50%), radial-gradient(ellipse at 77% 83%, #fc501f -50%, #E0E0E0 41%);
 }
 
 .wrap {
@@ -126,7 +127,7 @@ hr {
 .buick__input:checked + label {
   width: 130px;
   height: 54px;
-  border-radius: 65px;
+  border-radius: 25px;
   background-color: #151515;
   color: #F1F1F1;
   transition: all 0.1s ease-in;
@@ -235,12 +236,12 @@ hr {
 /* #endregion */
 /* #region speed */
 .speed {
-  height: 41cqw;
   background: url("../img/back/back-speed.png") 0 0/100% no-repeat;
   box-sizing: border-box;
   margin-top: 100px;
   padding-top: 9.7%;
   /* 140/1440 */
+  padding-bottom: 8%;
 }
 .speed__logo {
   width: 60px;
