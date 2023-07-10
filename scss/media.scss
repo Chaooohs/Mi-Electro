@@ -183,6 +183,24 @@ $red: #FF4C0D;
       margin-top: 40%;
     }
   }
+
+  //- review ------------------------------
+
+  .review {
+    &__chapter,
+    &__btn {
+      margin-left: 40px;
+    }
+    &__card {
+      width: 415px;
+    }
+    &__card h3 {
+      color: $black;
+    }
+    &__card hr {
+      background-color: $black;
+    }
+  }
 }
 
 @media (max-width: 640px) {
@@ -305,6 +323,10 @@ $red: #FF4C0D;
   .app {
     margin-top: 0;
 
+    &__chapter {
+      margin-top: 80px;
+    }
+
     &__content {
       grid-template-columns: 1fr;
     }
@@ -319,6 +341,10 @@ $red: #FF4C0D;
   .store {
     justify-content: center;
     margin-top: 40px;
+  }
+
+  .store img:nth-child(2) {
+    display: none;
   }
 
   //- about -----------------------
@@ -345,5 +371,17 @@ $red: #FF4C0D;
       color: $white;
     }
   }
+
+    //- review ------------------------------
+
+    .review {
+      &__chapter,
+      &__btn {
+        margin-left: 20px;
+      }
+      &__card {
+        width: 280px;
+      }
+    }
 
 }

@@ -119,6 +119,18 @@
   .about__title {
     margin-top: 40%;
   }
+  .review__chapter, .review__btn {
+    margin-left: 40px;
+  }
+  .review__card {
+    width: 415px;
+  }
+  .review__card h3 {
+    color: #151515;
+  }
+  .review__card hr {
+    background-color: #151515;
+  }
 }
 @media (max-width: 640px) {
   .wrap {
@@ -201,6 +213,9 @@
   .app {
     margin-top: 0;
   }
+  .app__chapter {
+    margin-top: 80px;
+  }
   .app__content {
     grid-template-columns: 1fr;
   }
@@ -212,6 +227,9 @@
   .store {
     justify-content: center;
     margin-top: 40px;
+  }
+  .store img:nth-child(2) {
+    display: none;
   }
   .about {
     position: relative;
@@ -230,5 +248,11 @@
   }
   .about__title {
     color: #F1F1F1;
+  }
+  .review__chapter, .review__btn {
+    margin-left: 20px;
+  }
+  .review__card {
+    width: 280px;
   }
 }
