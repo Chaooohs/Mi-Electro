@@ -187,16 +187,20 @@ $red: #FF4C0D;
   //- review ------------------------------
 
   .review {
+
     &__chapter,
     &__btn {
       margin-left: 40px;
     }
+
     &__card {
       width: 415px;
     }
+
     &__card h3 {
       color: $black;
     }
+
     &__card hr {
       background-color: $black;
     }
@@ -372,16 +376,23 @@ $red: #FF4C0D;
     }
   }
 
-    //- review ------------------------------
+  //- review ------------------------------
 
-    .review {
-      &__chapter,
-      &__btn {
-        margin-left: 20px;
-      }
-      &__card {
-        width: 280px;
-      }
+  .review {
+
+    &__chapter,
+    &__btn {
+      margin-left: 20px;
     }
+
+    &__card {
+      width: 280px;
+      margin-right: 20px;
+    }
+
+    &__card:nth-child(1) {
+      margin-left: 20px;
+    }
+  }
 
 }

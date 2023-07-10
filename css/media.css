@@ -254,5 +254,9 @@
   }
   .review__card {
     width: 280px;
+    margin-right: 20px;
+  }
+  .review__card:nth-child(1) {
+    margin-left: 20px;
   }
 }
