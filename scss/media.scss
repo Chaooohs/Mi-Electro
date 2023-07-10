@@ -11,8 +11,6 @@ $red: #FF4C0D;
     width: 28%;
   }
 
-  .page {}
-
   .wrap {
     padding: 0 40px;
     box-sizing: border-box;
@@ -129,14 +127,8 @@ $red: #FF4C0D;
       grid-template-columns: 1fr;
     }
 
-    &__title {
-      color: $red;
-      margin-top: 50px;
-    }
-
     &__subtitle {
       width: 62%;
-      // margin-bottom: 40px;
     }
   }
 
@@ -148,12 +140,7 @@ $red: #FF4C0D;
     background: url('../img/back/back-speed-lap.png') 0 0 / 100% no-repeat;
 
     &__title {
-      font-size: 30px;
       margin-top: 30%;
-    }
-
-    &__subtitle {
-      font-size: 14px;
     }
   }
 
@@ -184,11 +171,21 @@ $red: #FF4C0D;
   .store {
     margin-top: 5.6%;
   }
+
+  //- about -------------------------------
+
+  .about {
+    height: 65cqw;
+    padding: 40px 0;
+    background: url('../img/back/back-about-lap.png') 0 0 / 100% no-repeat;
+
+    &__title {
+      margin-top: 40%;
+    }
+  }
 }
 
 @media (max-width: 640px) {
-
-  .page {}
 
   .wrap {
     padding: 0 20px;
@@ -271,12 +268,7 @@ $red: #FF4C0D;
     }
 
     &__title {
-      font-size: 25px;
       margin-top: 80%
-    }
-
-    &__subtitle {
-      font-size: 12px;
     }
   }
 
@@ -328,4 +320,30 @@ $red: #FF4C0D;
     justify-content: center;
     margin-top: 40px;
   }
+
+  //- about -----------------------
+
+  .about {
+    position: relative;
+    height: 160cqw;
+    padding: 20px 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.49) 23%, rgba(21, 21, 21, 0.8) 55%, rgb(21, 21, 21) 61%),
+      url("../img/back/back-about-mob.png") 0 0/100% no-repeat;
+
+    &__content {
+      width: 90%;
+      position: absolute;
+      bottom: 10%;
+      left: 20px;
+    }
+
+    &__content p {
+      color: $white;
+    }
+
+    &__title {
+      color: $white;
+    }
+  }
+
 }

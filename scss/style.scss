@@ -106,6 +106,18 @@ hr {
   color: $black;
 }
 
+.text_white {
+  color: $white;
+}
+
+.text_red {
+  color: $red;
+}
+
+.mg_top {
+  margin-top: 80px;
+}
+
 .item {
   display: grid;
   grid-template-rows: 1fr auto 3fr;
@@ -283,7 +295,6 @@ hr {
 .speed {
   background: url('../img/back/back-speed.png') 0 0 / 100% no-repeat;
   box-sizing: border-box;
-  margin-top: 100px;
   padding-top: 9.7%;
   /* 140/1440 */
   padding-bottom: 8%;
@@ -293,14 +304,8 @@ hr {
   }
 
   &__title {
-    color: $white;
     margin-top: 10.4%;
     /* 150/1440 */
-  }
-
-  &__subtitle {
-    letter-spacing: -0.14px;
-    color: $white;
   }
 }
 
@@ -311,7 +316,6 @@ hr {
 .desing {
   &__chapter {
     width: 87%;
-    margin-top: 80px;
   }
 
   &__cards {
@@ -338,14 +342,6 @@ hr {
     background: url('../img/cards/image2-desk.png') 0 0 / 100% no-repeat;
     background-color: #0E0E0E;
   }
-
-  &__title {
-    color: $white;
-  }
-
-  &__subtitle {
-    color: $white;
-  }
 }
 
 /* #endregion */
@@ -353,15 +349,9 @@ hr {
 /* #region secure */
 
 .secure {
-
   &__content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-  }
-
-  &__chapter {
-    margin-top: 80px;
-    color: $red;
   }
 }
 
@@ -370,12 +360,6 @@ hr {
 /* #region app */
 
 .app {
-  margin-top: 80px;
-
-  &__chapter {
-    margin-top: 16%;
-  }
-
   &__content {
     display: grid;
     grid-template-columns: 1fr .1fr 1fr;
@@ -400,5 +384,27 @@ hr {
 /* #endregion */
 
 /* #region about */
+
+.about {
+  container-type: inline-size;
+  height: 44cqw;
+  background: url('../img/back/back-about-desk.png') 0 0 / 100% no-repeat;
+  box-sizing: border-box;
+  padding-top: 9.7%;
+  /* 140/1440 */
+  // padding-bottom: 17%;
+
+  &__content {
+    width: 50%
+  }
+
+  &__title {
+    margin-top: 15%;
+  }
+}
+
+/* #endregion */
+
+/* #region */
 
 /* #endregion */
