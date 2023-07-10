@@ -18,11 +18,11 @@ $red: #FF4C0D;
     box-sizing: border-box;
   }
 
-  .chapter {
+  .text_lg {
     font-size: 30px;
   }
 
-  .title {
+  .text_md {
     color: $red;
   }
 
@@ -194,15 +194,15 @@ $red: #FF4C0D;
     padding: 0 20px;
   }
 
-  .chapter {
+  .text_lg {
     font-size: 25px;
   }
 
-  .title {
+  .text_md {
     font-size: 16px;
   }
 
-  .subtitle {
+  .text_sm {
     font-size: 12px;
   }
 
