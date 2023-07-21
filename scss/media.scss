@@ -205,6 +205,21 @@ $red: #FF4C0D;
       background-color: $black;
     }
   }
+
+  //- ask -------------------------------------
+
+  .ask {
+    &__content {
+      width: 90%;
+      grid-template-columns: 1fr;
+    }
+    &__content h3 {
+      color: $black;
+    }
+    &__btn {
+      margin-top: 30px;
+    }
+  }
 }
 
 @media (max-width: 640px) {
@@ -393,6 +408,15 @@ $red: #FF4C0D;
     &__card:nth-child(1) {
       margin-left: 20px;
     }
+  }
+
+   //- ask -------------------------------------
+
+   .ask {
+    &__content {
+    gap: 30px;
+    }
+    
   }
 
 }

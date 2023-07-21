@@ -131,6 +131,16 @@
   .review__card hr {
     background-color: #151515;
   }
+  .ask__content {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+  .ask__content h3 {
+    color: #151515;
+  }
+  .ask__btn {
+    margin-top: 30px;
+  }
 }
 @media (max-width: 640px) {
   .wrap {
@@ -258,5 +268,8 @@
   }
   .review__card:nth-child(1) {
     margin-left: 20px;
+  }
+  .ask__content {
+    gap: 30px;
   }
 }

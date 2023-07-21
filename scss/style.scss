@@ -446,6 +446,25 @@ hr {
 
 /* #endregion */
 
-/* #region */
+/* #region ask */
+
+.ask {
+  &__content {
+    display: grid;
+    grid-template-columns: 1.1fr 2fr;
+    gap: 50px;
+    padding: 80px 0;
+  }
+  &__hr {
+    width: 100px;
+    background-color: $red;
+  }
+  &__btn {
+    margin-top: 50px;
+  }
+}
+/* #endregion */
+
+/* #region mielscooter */
 
 /* #endregion */

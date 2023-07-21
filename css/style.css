@@ -363,5 +363,21 @@ hr {
 }
 
 /* #endregion */
-/* #region */
+/* #region ask */
+.ask__content {
+  display: grid;
+  grid-template-columns: 1.1fr 2fr;
+  gap: 50px;
+  padding: 80px 0;
+}
+.ask__hr {
+  width: 100px;
+  background-color: #FF4C0D;
+}
+.ask__btn {
+  margin-top: 50px;
+}
+
+/* #endregion */
+/* #region mielscooter */
 /* #endregion */
