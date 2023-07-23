@@ -52,7 +52,7 @@ hr {
   max-width: 1440px;
   box-sizing: border-box;
   background-color: #E0E0E0;
-  background: linear-gradient(220deg, #FC501F -124%, #E0E0E0 23%, transparent 32%), radial-gradient(ellipse at 37% 19%, #fc501f -124%, #E0E0E0 30%, transparent 50%), radial-gradient(ellipse at center right, #fc501f -124%, #E0E0E0 40%, transparent 100%), radial-gradient(ellipse at 19% 60%, #fc501f -124%, #E0E0E0 40%, transparent 50%), radial-gradient(ellipse at 77% 83%, #fc501f -124%, #E0E0E0 72%);
+  background: linear-gradient(220deg, #FC501F -124%, #E0E0E0 23%, transparent 32%), radial-gradient(ellipse at 37% 19%, #fc501f -124%, #E0E0E0 30%, transparent 50%), radial-gradient(ellipse at center right, #fc501f -124%, #E0E0E0 40%, transparent 100%), radial-gradient(ellipse at 19% 60%, #fc501f -124%, #E0E0E0 40%, transparent 50%), radial-gradient(ellipse at 77% 72%, #fc501f -124%, #E0E0E0 28%);
 }
 
 .wrap {
@@ -431,6 +431,19 @@ hr {
   right: 0;
   bottom: 0;
   width: 53%;
+}
+
+/* #endregion */
+/* #region copy */
+.copy {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+.copy__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 /* #endregion */
