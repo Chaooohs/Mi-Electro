@@ -144,6 +144,9 @@
   .footer__btn {
     margin-top: 5rem;
   }
+  .footer__link {
+    display: block;
+  }
   .footer__right {
     display: none;
   }

@@ -175,27 +175,6 @@ hr {
   border-radius: 50px;
   border: 3px solid $black;
 
-  &__status {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    border-radius: 50px;
-    background-color: rgb(255, 255, 255, 0.5);
-    background: url('../img/buick/status.svg') right / auto auto no-repeat;
-    transition: background-position 2s ease-in;
-  }
-
-  &__status_white:checked~.buick__status {
-    background-position: left 2px center;
-  }
-
-  &__status_black:checked~.buick__status {
-    background-position: right 2px center;
-  }
-
   &__button {
     width: 130px;
     border: none;
@@ -204,24 +183,10 @@ hr {
     cursor: pointer;
   }
 
-  &__button:focus {
+  &__button_active {
     color: $white;
     background-color: $black;
     transition: all .2s ease-in;
-  }
-
-  &__button_footer {
-    color: $white;
-    background-color: $black;
-    transition: all .2s ease-in;
-  }
-
-  &__status_white:focus~.buick__status {
-    background-position: left 2px center;
-  }
-
-  &__status_black:focus~.buick__status {
-    background-position: right 2px center;
   }
 }
 
@@ -506,11 +471,12 @@ hr {
   }
 
   &__link {
+    display: none;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     color: $black;
-    margin-top: 14px;
+    margin-top: 20px;
   }
 
   &__right {
