@@ -178,6 +178,11 @@ hr {
   background-color: #151515;
   transition: all 0.2s ease-in;
 }
+.buick__button_footer {
+  color: #F1F1F1;
+  background-color: #151515;
+  transition: all 0.2s ease-in;
+}
 .buick__status_white:focus ~ .buick__status {
   background-position: left 2px center;
 }
