@@ -169,6 +169,7 @@ hr {
 
 .buick {
   position: relative;
+  z-index: 10;
   display: flex;
   width: 248px;
   height: 54px;
@@ -222,14 +223,14 @@ hr {
   }
 
   &__title {
-    font-size: 80px;
+    font-size: clamp(50px, 5cqi, 80px);
     font-weight: 600;
     line-height: 100%;
     color: $red;
   }
 
   &__subtitle {
-    font-size: 30px;
+    font-size: clamp(23px, 2.4cqi, 30px);
     font-weight: 600;
     line-height: 120%;
     color: $black;
@@ -464,6 +465,7 @@ hr {
   }
 
   &__btn {
+    z-index: 5;
     display: block;
     margin-top: 10rem;
     color: $white;
