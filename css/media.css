@@ -141,6 +141,12 @@
   .ask__btn {
     margin-top: 30px;
   }
+  .footer__btn {
+    margin-top: 5rem;
+  }
+  .footer__right {
+    display: none;
+  }
 }
 @media (max-width: 640px) {
   .wrap {
@@ -271,5 +277,23 @@
   }
   .ask__content {
     gap: 30px;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .footer__left {
+    width: 100%;
+    align-items: center;
+  }
+  .footer__btn {
+    margin-top: 2rem;
+  }
+  .footer__img {
+    position: static;
+    top: 16rem;
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
   }
 }

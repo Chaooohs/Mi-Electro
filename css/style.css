@@ -379,5 +379,58 @@ hr {
 }
 
 /* #endregion */
-/* #region mielscooter */
+/* #region footer */
+.footer {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3px 40px 40px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer__buick {
+  width: 200px;
+}
+.footer__price {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 120%;
+  color: #FF4C0D;
+  margin-top: 0;
+}
+.footer__btn {
+  display: block;
+  margin-top: 10rem;
+  color: #F1F1F1;
+  background-color: #FF4C0D;
+}
+.footer__link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #151515;
+  margin-top: 14px;
+}
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footer__list {
+  justify-self: flex-end;
+  padding: 0;
+  list-style-type: none;
+}
+.footer__img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 53%;
+}
+
 /* #endregion */

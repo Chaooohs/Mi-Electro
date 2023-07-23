@@ -213,11 +213,25 @@ $red: #FF4C0D;
       width: 90%;
       grid-template-columns: 1fr;
     }
+
     &__content h3 {
       color: $black;
     }
+
     &__btn {
       margin-top: 30px;
+    }
+  }
+
+  //- footer ----------------------------
+
+  .footer {
+    &__btn {
+      margin-top: 5rem;
+    }
+
+    &__right {
+      display: none;
     }
   }
 }
@@ -410,13 +424,35 @@ $red: #FF4C0D;
     }
   }
 
-   //- ask -------------------------------------
+  //- ask -------------------------------------
 
-   .ask {
+  .ask {
     &__content {
-    gap: 30px;
+      gap: 30px;
     }
-    
+  }
+
+  //- footer -----------------------------------
+  .footer {
+    grid-template-columns: 1fr;
+    padding: 20px;
+
+    &__left {
+      width: 100%;
+      align-items: center;
+    }
+
+    &__btn {
+      margin-top: 2rem;
+    }
+
+    &__img {
+      position: static;
+      top: 16rem;
+      left: 0;
+      width: 100%;
+      margin-top: 30px;
+    }
   }
 
 }

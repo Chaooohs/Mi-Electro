@@ -455,16 +455,81 @@ hr {
     gap: 50px;
     padding: 80px 0;
   }
+
   &__hr {
     width: 100px;
     background-color: $red;
   }
+
   &__btn {
     margin-top: 50px;
   }
 }
+
 /* #endregion */
 
-/* #region mielscooter */
+/* #region footer */
+
+.footer {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: 3px 40px 40px;
+  border-radius: 15px;
+  background-color: #fff;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__buick {
+    width: 200px;
+  }
+
+  &__price {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 120%;
+    color: $red;
+    margin-top: 0;
+  }
+
+  &__btn {
+    display: block;
+    margin-top: 10rem;
+    color: $white;
+    background-color: $red;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: $black;
+    margin-top: 14px;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  &__list {
+    justify-self: flex-end;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 53%;
+  }
+}
 
 /* #endregion */
