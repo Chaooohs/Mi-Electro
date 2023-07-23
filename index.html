@@ -54,11 +54,11 @@
             </p>
             <form>
               <div class="buick">
-                <input class="buick__input buick__status_white" type="radio" id="whiteBuick" value="white" name="buick">
-                <label class="buick__label" for="whiteBuick">Белый</label>
                 <input class="buick__input buick__status_black" type="radio" id="blackBuick" value="black" name="buick"
                   checked>
                 <label class="buick__label" for="blackBuick">Черный</label>
+                <input class="buick__input buick__status_white" type="radio" id="whiteBuick" value="white" name="buick">
+                <label class="buick__label" for="whiteBuick">Белый</label>
                 <div class="buick__status"></div>
               </div>
             </form>
@@ -321,23 +321,17 @@
           <div class="footer__left">
             <h2 class="text_lg">Mi Electric Scooter Pro 2</h2>
             <p class="footer__price text_red">54 990 ₽</p>
-            <form>
-              <div class="buick footer__buick">
-                <input class="buick__input buick__status_white" type="radio" id="whiteBuick" value="white" name="buick">
-                <label class="buick__label" for="whiteBuick">Белый</label>
-                <input class="buick__input buick__status_black" type="radio" id="blackBuick" value="black" name="buick"
-                  checked>
-                <label class="buick__label" for="blackBuick">Черный</label>
-                <div class="buick__status"></div>
+              <div>
+                <button class="" id="blackBuickFooter">Черный</button>
+                <button class="" id="whiteBuickFooter">Белый</button>
               </div>
-            </form>
             <div class="footer__img">
               <!-- <img src="./img/buick/buick-footer-black-desk.png" alt="img"> -->
               <!-- <img src="./img/buick/buick-footer-black-lapt.png" alt="img"> -->
-              <img src="./img/buick/buick-footer-blakc-mob.png" alt="img">
+              <img id="buickFooterBlackMob" src="./img/buick/buick-footer-blakc-mob.png" alt="img">
               <!-- <img src="./img/buick/buick-footer-white-desk.png" alt="img"> -->
               <!-- <img src="./img/buick/buick-footer-white-lapt.png" alt="img"> -->
-              <!-- <img src="./img/buick/buick-footer-white-mob.png" alt="img"> -->
+              <!-- <img id="buickFooterWhiteMob" src="" alt="img"> -->
             </div>
             <a href="#!" class="btn text_btn footer__btn">Купить</a>
             <a href="#!" class="footer__link">Комплект поставки</a>
@@ -360,7 +354,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section> <!-- copy -->
       <div class="wrap">
         <div class="copy">
           <div class="copy__left">
