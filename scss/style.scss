@@ -89,7 +89,7 @@ hr {
   padding: 0 140px;
 }
 
-.text_lg {
+.text-lg {
   font-size: 45px;
   font-weight: 500;
   line-height: 110%;
@@ -492,6 +492,11 @@ hr {
     font-weight: 600;
     color: $black;
     margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .hide-list {
+    display: none;
   }
 
   &__right {

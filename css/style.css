@@ -64,7 +64,7 @@ hr {
   padding: 0 140px;
 }
 
-.text_lg {
+.text-lg {
   font-size: 45px;
   font-weight: 500;
   line-height: 110%;
@@ -403,6 +403,10 @@ hr {
   font-weight: 600;
   color: #151515;
   margin-top: 20px;
+  cursor: pointer;
+}
+.footer .hide-list {
+  display: none;
 }
 .footer__right {
   display: flex;

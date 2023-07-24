@@ -63,7 +63,7 @@
     <section> <!-- character -->
       <div class="wrap">
         <div class="character">
-          <h2 class="text_lg">Мощная батарея и экономичный расход
+          <h2 class="text-lg">Мощная батарея и экономичный расход
             заряда позволяют преодолевать
             расстояния до 45 км
           </h2>
@@ -108,7 +108,7 @@
       <div class="speed mg_top">
         <div class="wrap">
           <img class="speed__logo" src="./img/logo/logo-white.svg" alt="logo">
-          <h2 class="speed__title text_lg text_white">Высокая скорость <br> передвижения</h2>
+          <h2 class="speed__title text-lg text_white">Высокая скорость <br> передвижения</h2>
           <p class="text_sm text_white">
             Двигатель мощностью до 600 Вт позволяет <br> развивать скорость до 25 км/ч.
           </p>
@@ -118,7 +118,7 @@
     <section> <!-- desing -->
       <div class="desing">
         <div class="wrap">
-          <h2 class="desing__chapter text_lg mg_top">Лаконичный современный дизайн, в котором нет ничего лишнего</h2>
+          <h2 class="desing__chapter text-lg mg_top">Лаконичный современный дизайн, в котором нет ничего лишнего</h2>
           <div class="desing__cards">
 
             <div class="desing__card desing__card_one">
@@ -148,7 +148,7 @@
     <section> <!-- secure -->
       <div class="secure">
         <div class="wrap">
-          <h2 class="text_lg text_red mg_top">
+          <h2 class="text-lg text_red mg_top">
             Заботится о вашей безопасности
           </h2>
           <div class="secure__content">
@@ -201,7 +201,7 @@
         <div class="wrap">
           <div class="app__content">
             <div class="div">
-              <h2 class="text_lg text_red app__chapter">Мобильное приложение Mi Home</h2>
+              <h2 class="text-lg text_red app__chapter">Мобильное приложение Mi Home</h2>
               <p class="text_sm">
                 Подключите самокат к мобильному приложению Mi Home и используйте его для блокировки и разблокировки
                 самоката, а так же просмотра основных данных: пробег, скорость, уровень заряда аккумулятора.
@@ -225,7 +225,7 @@
         <div class="wrap">
           <img class="speed__logo about__logo" src="./img/logo/logo-red.svg" alt="logo">
           <div class="about__content">
-            <h2 class="about__title text_lg text_red mg_top">О бренде Xiaomi</h2>
+            <h2 class="about__title text-lg text_red mg_top">О бренде Xiaomi</h2>
             <p class="text_sm">
               Компания Xiaomi была основана предпринимателем Лей Цзюнем в 2010 году под девизом - «Инновации для всех».
             </p>
@@ -238,7 +238,7 @@
     </section>
     <section> <!-- review -->
       <div class="review">
-        <h2 class="text_lg text_red mg_top review__chapter">Отзывы о Mi Scooter Pro 2</h2>
+        <h2 class="text-lg text_red mg_top review__chapter">Отзывы о Mi Scooter Pro 2</h2>
         <div class="review__cards">
 
           <div class="review__card">
@@ -288,7 +288,7 @@
         <div class="wrap">
           <div class="ask__content">
             <div>
-              <h2 class="text_lg text_red">Часто задаваемые вопросы</h2>
+              <h2 class="text-lg text_red">Часто задаваемые вопросы</h2>
               <p class="text_sm">Все ваши часто задаваемые вопросыо электросамокате Mi Scooter Pro 2.</p>
               <p class="text_sm">Если у вас есть собственный вопрос - задайте его через форму обратной связи.</p>
               <a href="#!" class="btn text_btn ask__btn">Задать вопрос</a>
@@ -317,7 +317,7 @@
       <div class="wrap">
         <div class="footer">
           <div class="footer__left">
-            <h2 class="text_lg">Mi Electric Scooter Pro 2</h2>
+            <h2 class="text-lg">Mi Electric Scooter Pro 2</h2>
             <p class="footer__price text_red">54 990 ₽</p>
             <div class="buick">
               <button class="buick__button text_btn buick__button_active" id="blackBuickFooter">Черный</button>
@@ -334,7 +334,16 @@
               
             </div>
             <a href="#!" class="btn text_btn footer__btn">Купить</a>
-            <a href="#!" class="footer__link">Комплект поставки</a>
+            <span class="footer__link" id="listBtn">Комплект поставки</span>
+            <ul class="text_sm footer__list hide-list" id="list">
+              <li>Адаптер питания</li>
+              <li>Шестигранный ключ</li>
+              <li>Удлинитель для насоса</li>
+              <li>Винты x 5 шт.</li>
+              <li>Запасная шина</li>
+              <li>Руководство пользователя</li>
+              <li>Буклет с информацией</li>
+            </ul>
           </div>
           <div class="footer__right">
             <div>
@@ -350,7 +359,6 @@
               </ul>
             </div class="footer__img">
           </div>
-
         </div>
       </div>
     </section>
@@ -372,6 +380,7 @@
 
 
   <script src="./js/buick.js"></script>
+  <script src="./js/style.js"></script>
 </body>
 
 </html>
