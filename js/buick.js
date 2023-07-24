@@ -54,3 +54,11 @@ const clear = (el) => el.classList.remove("buick__button_active");
 // }
 
 // src()
+
+$("#blackBuickFooter").onclick = () => {
+  $('#buickFooterImageMob').srcset="./img/buick/buick-footer-black-mob.png"
+}
+
+$("#whiteBuickFooter").onclick = () => {
+  $('#buickFooterImageMob').srcset="./img/buick/buick-footer-white-mob.png"
+}
