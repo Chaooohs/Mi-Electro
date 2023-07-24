@@ -108,6 +108,10 @@ hr {
   background-color: #F1F1F1;
 }
 
+.btn:hover {
+  transform: translateY(2px);
+}
+
 .item {
   display: grid;
   grid-template-rows: 1fr auto 3fr;
@@ -284,8 +288,13 @@ hr {
   margin-top: 80px;
 }
 
+.store a:hover {
+  transform: translateY(2px);
+}
+
 .store img {
   width: 120px;
+  height: 40px;
 }
 
 /* #endregion */
