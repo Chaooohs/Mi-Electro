@@ -73,6 +73,7 @@ hr {
   font-weight: 500;
   line-height: 110%;
   color: #151515;
+  margin-top: 0;
 }
 
 .text_md {
@@ -107,6 +108,10 @@ hr {
 
 .mg_top {
   margin-top: 80px;
+}
+
+.pd_top {
+  padding-top: 80px;
 }
 
 .btn {

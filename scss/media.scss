@@ -337,7 +337,7 @@ $red: #FF4C0D;
   .header {
     grid-template-rows: auto 1fr 1fr;
     padding-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
 
     &__logo {
       width: 50px;
@@ -386,7 +386,6 @@ $red: #FF4C0D;
   //- desing ---------------------------
 
   .desing {
-    margin-top: 70px;
 
     &__chapter {
       width: 100%;
@@ -417,7 +416,6 @@ $red: #FF4C0D;
     margin-top: 0;
 
     &__chapter {
-      margin-top: 80px;
     }
 
     &__content {
