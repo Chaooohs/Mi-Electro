@@ -24,7 +24,7 @@ $red: #FF4C0D;
     box-sizing: border-box;
   }
 
-  .text_lg {
+  .text-lg {
     font-size: 30px;
   }
 
@@ -80,6 +80,29 @@ $red: #FF4C0D;
     &__subtitle {
       font-size: 20px;
     }
+
+    &__mobile.active {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 999;
+
+      width: 60%;
+      max-width: 400px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 30px;
+
+      background-color: #f7a78a;
+    }
+
+    &__mobile a:last-child {
+      margin-top: 30px;
+    }
   }
 
   //- burger ---------------------------
@@ -88,7 +111,8 @@ $red: #FF4C0D;
     position: fixed;
     top: 20px;
     right: 20px;
-    
+    z-index: 1000;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -272,7 +296,7 @@ $red: #FF4C0D;
     padding: 0 20px;
   }
 
-  .text_lg {
+  .text-lg {
     font-size: 25px;
   }
 
@@ -280,7 +304,7 @@ $red: #FF4C0D;
     font-size: 16px;
   }
 
-  .text_sm {
+  .text-sm {
     font-size: 12px;
   }
 
