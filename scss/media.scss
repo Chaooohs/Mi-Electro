@@ -81,10 +81,10 @@ $red: #FF4C0D;
       font-size: 20px;
     }
 
-    &__mobile.active {
+    &__mobile {
       position: fixed;
       top: 0;
-      right: 0;
+      right: -100vh;
       bottom: 0;
       z-index: 999;
 
@@ -98,6 +98,12 @@ $red: #FF4C0D;
       row-gap: 30px;
 
       background-color: #f7a78a;
+      transition: all .3s ease-out;
+      
+    }
+
+    &__mobile.active {
+      right: 0;
     }
 
     &__mobile a:last-child {

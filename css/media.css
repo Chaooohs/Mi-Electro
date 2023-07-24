@@ -53,10 +53,10 @@
   .header__subtitle {
     font-size: 20px;
   }
-  .header__mobile.active {
+  .header__mobile {
     position: fixed;
     top: 0;
-    right: 0;
+    right: -100vh;
     bottom: 0;
     z-index: 999;
     width: 60%;
@@ -67,6 +67,10 @@
     justify-content: center;
     row-gap: 30px;
     background-color: #f7a78a;
+    transition: all 0.3s ease-out;
+  }
+  .header__mobile.active {
+    right: 0;
   }
   .header__mobile a:last-child {
     margin-top: 30px;
