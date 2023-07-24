@@ -56,7 +56,7 @@
   .header__mobile {
     position: fixed;
     top: 0;
-    right: -100vh;
+    right: 0;
     bottom: 0;
     z-index: 999;
     width: 60%;
@@ -64,13 +64,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     row-gap: 30px;
     background-color: #f7a78a;
+    overflow: auto;
+    padding: 10rem 0;
+    transform: translateX(100%);
     transition: all 0.3s ease-out;
   }
   .header__mobile.active {
-    right: 0;
+    transform: translateX(0);
   }
   .header__mobile a:last-child {
     margin-top: 30px;
