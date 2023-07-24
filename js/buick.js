@@ -49,16 +49,36 @@ const clear = (el) => el.classList.remove("buick__button_active");
 //   } else if (document.documentElement.clientWidth > 280) {
 //     $('#buickFooterImageMob').src ="./img/buick/buick-footer-black-mob.png"
 //   } else {
-    
+
 //   }
 // }
 
 // src()
 
+
+
 $("#blackBuickFooter").onclick = () => {
-  $('#buickFooterImageMob').srcset="./img/buick/buick-footer-black-mob.png"
+if (document.documentElement.clientWidth > 992) {
+    $('#buickFooterImageDesk').srcset = "./img/buick/buick-footer-black-desk.png"
+  }
+  else if (document.documentElement.clientWidth > 640) {
+    $('#buickFooterImageLapt').srcset = "./img/buick/buick-footer-black-lapt.png"
+  }
+  else if (document.documentElement.clientWidth > 279) {
+    $('#buickFooterImageMob').srcset = "./img/buick/buick-footer-black-mob.png"
+  }
 }
 
 $("#whiteBuickFooter").onclick = () => {
-  $('#buickFooterImageMob').srcset="./img/buick/buick-footer-white-mob.png"
+if (document.documentElement.clientWidth > 993) {
+    $('#buickFooterImageDesk').srcset = "./img/buick/buick-footer-white-desk.png"
+  }
+  else if (document.documentElement.clientWidth > 640) {
+    $('#buickFooterImageLapt').srcset = "./img/buick/buick-footer-white-lapt.png"
+  }
+  else if (document.documentElement.clientWidth > 279) {
+    $('#buickFooterImageMob').srcset = "./img/buick/buick-footer-white-mob.png"
+  }
 }
+
+
