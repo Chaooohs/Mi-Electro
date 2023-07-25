@@ -25,3 +25,10 @@ el("#mobMenu").addEventListener("click", (e) => {
   e.target = scroll();
   e.target = underline();
 });
+
+const eee = function (e) {
+  el("#mobMenu").style.background = "#350000"
+  el("#mobMenu").addEventListener('click', (e) => e.target.style.color = 'white')
+}
+
+eee()
