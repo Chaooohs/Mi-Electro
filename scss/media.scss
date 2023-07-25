@@ -4,7 +4,7 @@ $black: #151515;
 $white: #F1F1F1;
 $red: #FF4C0D;
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   .footer {
     &__img {
       width: 650px;
@@ -81,15 +81,31 @@ $red: #FF4C0D;
       font-size: 20px;
     }
 
+    &__underlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 800;
+      background-color: #00000024;
+    }
+
+    &__underlay.active {
+      display: block;
+    }
+
     &__mobile {
       position: fixed;
       top: 0;
       right: 0;
       bottom: 0;
-      z-index: 999;
+      z-index: 900;
 
       width: 60%;
       max-width: 400px;
+      height: 100vh;
 
       display: flex;
       flex-direction: column;
@@ -97,19 +113,19 @@ $red: #FF4C0D;
       row-gap: 30px;
 
       background-color: #f7a78a;
-      overflow: auto;
       padding: 10rem 0;
+      overflow: auto;
+
       transform: translateX(100%);
       transition: all .3s ease-out;
-      
-    }
-
-    &__mobile.active {
-      transform: translateX(0);
     }
 
     &__mobile a:last-child {
       margin-top: 30px;
+    }
+
+    &__mobile.active {
+      transform: translateX(0);
     }
   }
 
@@ -417,8 +433,7 @@ $red: #FF4C0D;
   .app {
     margin-top: 0;
 
-    &__chapter {
-    }
+    &__chapter {}
 
     &__content {
       grid-template-columns: 1fr;

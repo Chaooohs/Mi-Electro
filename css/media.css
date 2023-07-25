@@ -53,29 +53,43 @@
   .header__subtitle {
     font-size: 20px;
   }
+  .header__underlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 800;
+    background-color: rgba(0, 0, 0, 0.1411764706);
+  }
+  .header__underlay.active {
+    display: block;
+  }
   .header__mobile {
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
-    z-index: 999;
+    z-index: 900;
     width: 60%;
     max-width: 400px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 30px;
     background-color: #f7a78a;
-    overflow: auto;
     padding: 10rem 0;
+    overflow: auto;
     transform: translateX(100%);
     transition: all 0.3s ease-out;
   }
-  .header__mobile.active {
-    transform: translateX(0);
-  }
   .header__mobile a:last-child {
     margin-top: 30px;
+  }
+  .header__mobile.active {
+    transform: translateX(0);
   }
   .burger {
     position: fixed;
