@@ -26,9 +26,16 @@ el("#mobMenu").addEventListener("click", (e) => {
   e.target = underline();
 });
 
-const eee = function (e) {
-  el("#mobMenu").style.background = "#350000"
-  el("#mobMenu").addEventListener('click', (e) => e.target.style.color = 'white')
-}
+// mobile menu color
+const back = function (e) {
+  el("#mobMenu").style.background = "#350000";
+};
+back();
 
-eee()
+const colorLink = function () {
+  const [...arr] = document.querySelectorAll("#mobMenu a");
+  arr.forEach((element) => {
+    element.style.color = "white";
+  });
+};
+colorLink();
