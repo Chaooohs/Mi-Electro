@@ -61,9 +61,9 @@
     bottom: 0;
     left: 0;
     z-index: 800;
-    background-color: rgba(0, 0, 0, 0.1411764706);
+    background-color: rgba(255, 157, 157, 0.14);
   }
-  .header__underlay.active {
+  .header__underlay.under {
     display: block;
   }
   .header__mobile {

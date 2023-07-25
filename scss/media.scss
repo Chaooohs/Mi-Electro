@@ -89,10 +89,10 @@ $red: #FF4C0D;
       bottom: 0;
       left: 0;
       z-index: 800;
-      background-color: #00000024;
+      background-color: rgb(255 157 157 / 14%);
     }
 
-    &__underlay.active {
+    &__underlay.under {
       display: block;
     }
 
