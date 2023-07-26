@@ -72,10 +72,10 @@ hr {
   max-width: 1440px;
   box-sizing: border-box;
   background-color: #E0E0E0;
-  // background:
+  background:
 
-    // radial-gradient(ellipse farthest-corner at right bottom, #fedb37 0%, #FDB931 8%, #9f7928 30%, #8a6e2f 40%, transparent 80%),
-    // radial-gradient(ellipse farthest-corner at left top, #ffffff 0%, #ffffac 8%, #d1b464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    radial-gradient(ellipse farthest-corner at right bottom, #fedb37 0%, #FDB931 8%, #9f7928 30%, #8a6e2f 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #ffffff 0%, #ffffac 8%, #d1b464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 
     // linear-gradient(220deg, #FC501F -124%, #E0E0E0 23%, transparent 32%),
     // radial-gradient(ellipse at 37% 19%, #fc501f -124%, #E0E0E0 30%, transparent 50%),
@@ -145,14 +145,10 @@ hr {
   padding: 15px 35px;
   border-radius: 65px;
   background-color: $white;
-  border-top: 2px $white solid;
-  border-bottom: black 2px solid;
   transition: all .1s linear;
 }
 
 .btn:active {
-  border-top: black 2px solid;
-  border-bottom: $white 2px solid;
   transform: translateY(2px);
 }
 
@@ -469,7 +465,7 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  padding: 3px 40px 40px;
+  padding: 40px;
   border-radius: 15px;
   background-color: #fff;
 

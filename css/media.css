@@ -334,7 +334,7 @@
   }
   .footer {
     grid-template-columns: 1fr;
-    padding: 20px;
+    padding: 40px 20px;
   }
   .footer__left {
     width: 100%;
