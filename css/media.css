@@ -104,11 +104,6 @@
     background-color: #F1F1F1;
     cursor: pointer;
   }
-  .burger__icon {
-    position: relative;
-    width: 18px;
-    height: 12px;
-  }
   .burger__line {
     position: absolute;
     width: 100%;

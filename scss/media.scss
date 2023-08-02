@@ -145,13 +145,7 @@ $red: #FF4C0D;
     border-radius: 65px;
     background-color: $white;
     cursor: pointer;
-
-    &__icon {
-      position: relative;
-      width: 18px;
-      height: 12px;
-    }
-
+    
     &__line {
       position: absolute;
       width: 100%;
@@ -431,8 +425,6 @@ $red: #FF4C0D;
 
   .app {
     margin-top: 0;
-
-    &__chapter {}
 
     &__content {
       grid-template-columns: 1fr;
