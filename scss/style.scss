@@ -46,8 +46,9 @@ html {
 }
 
 body {
-  margin: 0;
   font-family: "Gilroy", sans-serif;
+  background-color: #b2b2b2;
+  margin: 0;
 }
 
 img {
@@ -69,9 +70,11 @@ hr {
 }
 
 .page {
+  width: 100%;
   max-width: 1440px;
   box-sizing: border-box;
   background-color: #E0E0E0;
+  margin: 0 auto;
   // background:
 
     // radial-gradient(ellipse farthest-corner at right bottom, #fedb37 0%, #FDB931 8%, #9f7928 30%, #8a6e2f 40%, transparent 80%),

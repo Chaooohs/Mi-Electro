@@ -1,0 +1,385 @@
+@media (max-width: 1200px) {
+  .footer__img {
+    width: 650px;
+  }
+}
+@media (max-width: 992px) {
+  hr {
+    background-color: #FF4C0D;
+    width: 28%;
+  }
+  .wrap {
+    padding: 0 40px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .text-lg {
+    font-size: 30px;
+  }
+  .text_md {
+    color: #FF4C0D;
+  }
+  .item {
+    grid-template-rows: auto auto auto;
+  }
+  .photo {
+    display: none;
+  }
+  .photo-lap {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .buick_black {
+    background: url("../img/buick/buick-black-laptop.png") top right/auto auto no-repeat;
+  }
+  .buick_white {
+    background: url("../img/buick/buick-white-laptop.png") top right/auto auto no-repeat;
+  }
+  .header {
+    padding-bottom: 220px;
+  }
+  .header__logo {
+    width: 50px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__btn {
+    display: none;
+  }
+  .header__title {
+    font-size: 40px;
+  }
+  .header__subtitle {
+    font-size: 20px;
+  }
+  .header__underlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 800;
+    background-color: rgba(255, 157, 157, 0.14);
+  }
+  .header__underlay.under {
+    display: block;
+  }
+  .header__mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 900;
+    width: 60%;
+    max-width: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 30px;
+    background-color: #f7a78a;
+    padding: 10rem 0;
+    overflow: auto;
+    -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .header__mobile a:last-child {
+    margin-top: 30px;
+  }
+  .header__mobile.active {
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .burger {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 65px;
+    background-color: #F1F1F1;
+    cursor: pointer;
+  }
+  .burger__line {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+  }
+  .burger__one {
+    top: 0;
+  }
+  .burger__two {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .burger__three {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .burger__four {
+    bottom: 0;
+  }
+  .character__content {
+    grid-template-columns: 1fr;
+  }
+  .character__subtitle {
+    width: 62%;
+  }
+  .speed {
+    padding: 40px 0;
+    height: 65cqw;
+    background: url("../img/back/back-speed-lap.png") 0 0/100% no-repeat;
+  }
+  .speed__title {
+    margin-top: 30%;
+  }
+  .desing__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 10px;
+  }
+  .desing__card {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .secure__content {
+    grid-template-columns: 1fr;
+  }
+  .store {
+    margin-top: 5.6%;
+  }
+  .about {
+    height: 65cqw;
+    padding: 40px 0;
+    background: url("../img/back/back-about-lap.png") 0 0/100% no-repeat;
+  }
+  .about__title {
+    margin-top: 40%;
+  }
+  .review__chapter, .review__btn {
+    margin-left: 40px;
+  }
+  .review__card {
+    width: 415px;
+  }
+  .review__card h3 {
+    color: #151515;
+  }
+  .review__card hr {
+    background-color: #151515;
+  }
+  .ask__content {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+  .ask__content h3 {
+    color: #151515;
+  }
+  .ask__btn {
+    margin-top: 30px;
+  }
+  .footer__btn {
+    margin-top: 5rem;
+  }
+  .footer__link {
+    display: block;
+  }
+  .footer__right {
+    display: none;
+  }
+  .footer__img {
+    width: 450px;
+  }
+  .copy {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .copy__right {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (max-width: 640px) {
+  .wrap {
+    padding: 0 20px;
+  }
+  .text-lg {
+    font-size: 25px;
+  }
+  .text_md {
+    font-size: 16px;
+  }
+  .text-sm {
+    font-size: 12px;
+  }
+  .photo-lap {
+    width: 100%;
+  }
+  .buick_black {
+    background: url("../img/buick/buick-black-mobile.png") top right/auto auto no-repeat;
+  }
+  .buick_white {
+    background: url("../img/buick/buick-white-mobile.png") top right/auto auto no-repeat;
+  }
+  .buick {
+    margin: 0 auto;
+  }
+  .header {
+    grid-template-rows: auto 1fr 1fr;
+    padding-top: 25px;
+    padding-bottom: 0;
+  }
+  .header__logo {
+    width: 50px;
+  }
+  .header__content {
+    grid-row: 3/4;
+  }
+  .header__title {
+    font-size: 30px;
+  }
+  .header__subtitle {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .character__subtitle {
+    width: 100%;
+  }
+  .speed {
+    padding: 20px 0 30px;
+    height: 130cqw;
+    background: url("../img/back/back-speed-mob.png") 0 0/100% no-repeat;
+  }
+  .speed__logo {
+    width: 46px;
+  }
+  .speed__title {
+    margin-top: 80%;
+  }
+  .desing__chapter {
+    width: 100%;
+  }
+  .desing__card {
+    width: 100%;
+  }
+  .desing__card_one {
+    background: url("../img/cards/image1-mob.png") 0 0/100% no-repeat;
+    background-color: #0E0E0E;
+  }
+  .desing__card_two {
+    background: url("../img/cards/image2-mob.png") 0 0/100% no-repeat;
+    background-color: #0E0E0E;
+  }
+  .desing__card_text {
+    padding: 71% 20px 20px;
+  }
+  .app {
+    margin-top: 0;
+  }
+  .app__content {
+    grid-template-columns: 1fr;
+  }
+  .app__image {
+    grid-column: 1;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .store {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 40px;
+  }
+  .store img:nth-child(2) {
+    display: none;
+  }
+  .about {
+    position: relative;
+    height: 160cqw;
+    padding: 20px 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(23%, rgba(255, 255, 255, 0.49)), color-stop(55%, rgba(21, 21, 21, 0.8)), color-stop(61%, rgb(21, 21, 21))), url("../img/back/back-about-mob.png") 0 0/100% no-repeat;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.49) 23%, rgba(21, 21, 21, 0.8) 55%, rgb(21, 21, 21) 61%), url("../img/back/back-about-mob.png") 0 0/100% no-repeat;
+  }
+  .about__content {
+    width: 90%;
+    position: absolute;
+    bottom: 10%;
+    left: 20px;
+  }
+  .about__content p {
+    color: #F1F1F1;
+  }
+  .about__title {
+    color: #F1F1F1;
+  }
+  .review__chapter, .review__btn {
+    margin-left: 20px;
+  }
+  .review__card {
+    width: 280px;
+    margin-right: 20px;
+  }
+  .review__card:nth-child(1) {
+    margin-left: 20px;
+  }
+  .ask__content {
+    gap: 30px;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+  .footer__left {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__btn {
+    margin-top: 2rem;
+  }
+  .footer__img {
+    position: static;
+    top: 16rem;
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
